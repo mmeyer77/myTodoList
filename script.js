@@ -180,7 +180,7 @@ var view = {
             var deleteButton = document.createElement('button');
             deleteButton.textContent = 'Delete';
             deleteButton.className = 'deleteButton' 
-            deleButton.onClick = 'handlers.deleteStudent(this.parentNode.id)';
+            deleteButton.onClick = 'handlers.deleteStudent(this.parentNode.id)';
             return deleteButton;
         },
 
