@@ -193,11 +193,13 @@ ttodosUl.addEventListener('click', function(event){
 
     var elementClicked = event.target;
         if (elementClicked.className == 'deleteButton'){
-             console.log(handlers.deleteStudent(parseInt(elementClicked.parentNode.id)));
-    
+             console.log('hi');
+                
          }
     
      });
+
+//handlers.deleteStudent(parseInt(elementClicked.parentNode.id))
 
 
 
