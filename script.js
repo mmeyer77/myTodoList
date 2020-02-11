@@ -179,8 +179,8 @@ var view = {
         createDeleteButton: function (){
             var deleteButton = document.createElement('button');
             deleteButton.textContent = 'Delete';
-            deleteButton.className = 'deleteButton' 
-            deleteButton.id = 'handlers.deleteStudent(this.parentNode.id)';
+            deleteButton.className = 'handlers.deleteStudent(this.parentNode.id)' 
+            //deleteButton.id = 'handlers.deleteStudent(this.parentNode.id)';
             return deleteButton;
         },
 
