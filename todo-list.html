@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Todos APP</title>
+<script  src="./js/script.js"></script>
+</head>
+
+<body>
+<h1>TO DO LIST</h1>
+
+
+
+
+<div>
+    
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+</div>
+
+<div>
+    <button onclick="handlers.addStudent()">Add Data</button>
+    <input id="newstudent" type="text" placeholder="Add a new item.." value="">
+</div>
+
+<div>
+    <button onclick="handlers.changeStudent()">Change Data</button>
+    <input id="changestudentposition" type="number" min="0" placeholder="Enter item position.." value="">
+    <input id="changestudenttext" type="text" placeholder="Change text.." value="">
+    
+</div>
+
+<div>
+    <button onclick="handlers.deleteStudent()">Delete</button>
+    <input id="deleteStudentposition" type="text" placeholder="Enter position.." value="">
+</div>
+
+<div>
+    <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+    <input id="toggleCompletedPositionInput" type="text" placeholder="Enter position.." value="">
+</div>
+
+<div id="myDiv">
+   
+              
+    <ul id="myList">
+    
+    </ul>
+</div>
+
+
+    
+
+    
+
+</body>
+
+</html>
