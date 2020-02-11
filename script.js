@@ -179,7 +179,8 @@ var view = {
         createDeleteButton: function (){
             var deleteButton = document.createElement('button');
             deleteButton.textContent = 'Delete';
-            deleteButton.className = 'deleteButton';
+            deleteButton.className = 'deleteButton' 
+            deleButton.onClick = 'handlers.deleteStudent(this.parentNode.id)';
             return deleteButton;
         },
 
@@ -187,17 +188,17 @@ var view = {
         
 };
 
-var ttodosUl = document.querySelector('ul');
+// var ttodosUl = document.querySelector('ul');
 
-ttodosUl.addEventListener('click', function(event){
+// ttodosUl.addEventListener('click', function(event){
 
-    var elementClicked = event.target;
-        if (elementClicked.className == 'deleteButton'){
-             console.log('hi');
+//     var elementClicked = event.target;
+//         if (elementClicked.className == 'deleteButton'){
+//              console.log('hi');
                 
-         }
+//          }
     
-     });
+//      });
 
 //handlers.deleteStudent(parseInt(elementClicked.parentNode.id))
 
